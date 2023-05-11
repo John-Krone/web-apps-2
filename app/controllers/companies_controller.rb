@@ -8,7 +8,7 @@ class CompaniesController < ApplicationController
 
   def show
   #   # find a Company
-    company = COmpany.find_by({"id" => params["id"]})
+    company = Company.find_by({"id" => params["id"]})
   #   # render companies/show view with details about Company
   end
 
